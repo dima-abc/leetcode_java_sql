@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.6.0">
+<file name="C:\projects\leetcode_java_sql\src\main\java\org\leetcode\App.java">
+</file>
+<file name="C:\projects\leetcode_java_sql\src\main\java\org\leetcode\e1to100\e1twosum\SolutionTwoSum.java">
+</file>
+<file name="C:\projects\leetcode_java_sql\src\main\java\org\leetcode\e1to100\e9polindromenumber\SolutionPalindromeNumber.java">
+</file>
+<file name="C:\projects\leetcode_java_sql\src\test\java\org\leetcode\AppTest.java">
+</file>
+<file name="C:\projects\leetcode_java_sql\src\test\java\org\leetcode\e1to100\e1twosum\SolutionTwoSumTest.java">
+</file>
+<file name="C:\projects\leetcode_java_sql\src\test\java\org\leetcode\e1to100\e9polindromenumber\SolutionPalindromeNumberTest.java">
+</file>
+</checkstyle>

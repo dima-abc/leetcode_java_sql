@@ -22,29 +22,4 @@ public class SolutionPalindromeNumber {
         }
         return x == reverted || x == reverted / 10;
     }
-
-
-    public boolean isPalindromeMy(int x) {
-        if (x < 0) {
-            return false;
-        }
-        int reverted = 0;
-        reverted = 10 * reverted + (x % 10);
-        if (x > 0 && reverted == 0) {
-            return false;
-        }
-        if (x > reverted) {
-            x = x / 10;
-        }
-        while (x > reverted) {
-            reverted = 10 * reverted + (x % 10);
-            if (x > reverted) {
-                x = x / 10;
-            }
-        }
-        if (x == reverted) {
-            return true;
-        }
-        return false;
-    }
 }
