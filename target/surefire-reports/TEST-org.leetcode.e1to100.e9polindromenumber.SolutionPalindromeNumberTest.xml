@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.013" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.015" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dmitry\AppData\Local\Temp\surefire16734334740283730196\surefirebooter-20230621122023575_3.jar C:\Users\Dmitry\AppData\Local\Temp\surefire16734334740283730196 2023-06-21T12-20-23_235-jvmRun1 surefire-20230621122023575_1tmp surefire_0-20230621122023575_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dmitry\AppData\Local\Temp\surefire2155247910800638943\surefirebooter-20230621160338927_3.jar C:\Users\Dmitry\AppData\Local\Temp\surefire2155247910800638943 2023-06-21T16-03-38_565-jvmRun1 surefire-20230621160338927_1tmp surefire_0-20230621160338927_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\projects\leetcode_java_sql\target\test-classes;C:\projects\leetcode_java_sql\target\classes;C:\Users\Dmitry\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Dmitry\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Dmitry\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Dmitry\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Dmitry\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Dmitry\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Dmitry\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Dmitry\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Dmitry\.m2\repository\net\bytebuddy\byte-buddy\1.12.21\byte-buddy-1.12.21.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dmitry\AppData\Local\Temp\surefire16734334740283730196\surefirebooter-20230621122023575_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dmitry\AppData\Local\Temp\surefire2155247910800638943\surefirebooter-20230621160338927_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -57,8 +57,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="whenExample4X37573ThenTrue" classname="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.003"/>
-  <testcase name="whenExample3X10ThenFalse" classname="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.001"/>
+  <testcase name="whenExample4X37573ThenTrue" classname="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.004"/>
+  <testcase name="whenExample3X10ThenFalse" classname="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.002"/>
   <testcase name="whenExample1X121ThenTrue" classname="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.001"/>
   <testcase name="whenExample2XNegative121ThenFalse" classname="org.leetcode.e1to100.e9polindromenumber.SolutionPalindromeNumberTest" time="0.001"/>
 </testsuite>

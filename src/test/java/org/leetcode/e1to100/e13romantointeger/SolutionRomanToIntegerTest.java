@@ -35,4 +35,25 @@ class SolutionRomanToIntegerTest {
         var expected = 1994;
         assertThat(actual).isEqualTo(expected);
     }
+
+    @Test
+    void whenByIndiaExample1InputIIIThenReturn3() {
+        var actual = roman.romanToIntByIndia("III");
+        var expected = 3;
+        assertThat(actual).isEqualTo(expected);
+    }
+
+    @Test
+    void whenByIndiaExample2InputLVIIIThenReturn58() {
+        var actual = roman.romanToIntByIndia("LVIII");
+        var expected = 58;
+        assertThat(actual).isEqualTo(expected);
+    }
+
+    @Test
+    void whenByIndiaExample3InputMCMXCIVThenReturn1994() {
+        var actual = roman.romanToIntByIndia("MCMXCIV");
+        var expected = 1994;
+        assertThat(actual).isEqualTo(expected);
+    }
 }

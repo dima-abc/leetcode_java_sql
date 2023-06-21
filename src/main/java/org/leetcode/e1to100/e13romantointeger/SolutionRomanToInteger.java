@@ -21,16 +21,49 @@ public class SolutionRomanToInteger {
             Map.entry('M', 1000)
     );
 
+    private static final int[] ROMAN = new int[256];
+
+    static {
+        ROMAN['I'] = 1;
+        ROMAN['V'] = 5;
+        ROMAN['X'] = 10;
+        ROMAN['L'] = 50;
+        ROMAN['C'] = 100;
+        ROMAN['D'] = 500;
+        ROMAN['M'] = 1000;
+    }
+
     public int romanToInt(String s) {
         int result = 0;
-        for (short i = 0; i < s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             if (i + 1 < s.length()
                 && mapRoman.get(s.charAt(i)) < mapRoman.get(s.charAt(i + 1))) {
-                result += mapRoman.get(s.charAt(i + 1)) - mapRoman.get(s.charAt(i));
-                i++;
-                continue;
+                result -= mapRoman.get(s.charAt(i));
+            } else {
+                result += mapRoman.get(s.charAt(i));
             }
-            result += mapRoman.get(s.charAt(i));
+        }
+        return result;
+    }
+
+    /**
+     * Sample by India
+     * Time O(n) and Space O(1)
+     *
+     * @param s
+     * @return
+     */
+    public int romanToIntByIndia(String s) {
+        int result = 0;
+        int prev = 0;
+        int current = 0;
+        for (char c : s.toCharArray()) {
+            current = ROMAN[c];
+            if (prev < current) {
+                result -= prev + prev;
+            }
+            result += current;
+            prev = current;
         }
         return result;
     }
