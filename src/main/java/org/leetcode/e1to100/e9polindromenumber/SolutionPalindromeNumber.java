@@ -4,6 +4,7 @@ package org.leetcode.e1to100.e9polindromenumber;
  * LeetCode.com
  * ProblemList
  * 9. Palindrome Number
+ * Проверить является ли число палиндромом, то есть одинаковое с двух сторон.
  *
  * @author Dmitry Stepanov, user Dmitry
  * @since 20.06.2023

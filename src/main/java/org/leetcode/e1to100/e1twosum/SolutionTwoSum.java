@@ -7,6 +7,7 @@ import java.util.Map;
  * LeetCode.com
  * ProblemList
  * 1.Two Sum
+ * Найти два числа в массиве сумма которых будет равна заданному числу, и вернуть индексы этих чисел.
  *
  * @author Dmitry Stepanov, user Dmitry
  * @since 20.06.2023
@@ -14,7 +15,6 @@ import java.util.Map;
 public class SolutionTwoSum {
     /**
      * O(n^2)
-     *
      */
     public int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
@@ -29,7 +29,6 @@ public class SolutionTwoSum {
 
     /**
      * O(n)
-     *
      */
     public int[] twoSumOn(int[] nums, int target) {
         Map<Integer, Integer> numMap = new HashMap<>();

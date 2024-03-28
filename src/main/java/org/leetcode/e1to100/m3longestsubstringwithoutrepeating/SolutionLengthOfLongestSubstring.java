@@ -7,6 +7,8 @@ import java.util.Set;
  * LeetCode.com
  * ProblemList
  * 3. Longest Substring Without Repeating Characters
+ * <p>
+ * Скользящее окно нужно найти максимальную уникальную последовательность в строке.
  *
  * @author Dmitry Stepanov, user Dmitry
  * @since 23.06.2023
