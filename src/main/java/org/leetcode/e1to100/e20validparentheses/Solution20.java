@@ -10,7 +10,7 @@ import java.util.Stack;
  * @author Dmitry Stepanov, user Dmitry
  * @since 22.06.2023
  */
-public class SolutionValidParentheses {
+public class Solution20 {
     private static final int[] BR = new int[256];
 
     static {

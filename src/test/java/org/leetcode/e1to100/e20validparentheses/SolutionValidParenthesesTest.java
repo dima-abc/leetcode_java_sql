@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.*;
  * @since 22.06.2023
  */
 class SolutionValidParenthesesTest {
-    private final SolutionValidParentheses solution = new SolutionValidParentheses();
+    private final Solution20 solution = new Solution20();
 
     @Test
     void whenExample1ThenTrue() {
